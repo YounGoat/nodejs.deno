@@ -1,0 +1,28 @@
+{
+    "bin": {},
+    "dependencies": {},
+    "devDependencies": {
+        "mocha": "^3.3.0"
+    },
+    "directories": {},
+    "scripts": {
+        "test": "mocha"
+    },
+    "name": "deno",
+    "version": "0.0.0",
+    "main": "index.js",
+    "keywords": [
+        "deno"
+    ],
+    "homepage": "https://github.com/YounGoat/nodejs.deno",
+    "description": "Bridge to deno.",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/YounGoat/nodejs.deno.git"
+    },
+    "author": {
+        "name": "YounGoat",
+        "email": "youngoat@163.com",
+        "url": "https://youngoat.github.io"
+    }
+}
