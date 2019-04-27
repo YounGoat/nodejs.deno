@@ -7,6 +7,6 @@ const MODULE_REQUIRE = 1
     
     /* in-package */
     ;
-
-
-module.exports = '';
+    
+const Deno = require('./variables');
+module.exports = Object.assign(Deno);
