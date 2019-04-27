@@ -25,7 +25,6 @@ ATTENTION: Although this module `deno` tries to imitate behaviors of real [*Deno
     *   args
     *   build
     *   execPath
-    *   execPath
 	*   pid
 	*   platform
 	*   stderr
