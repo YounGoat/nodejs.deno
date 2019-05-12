@@ -1,2 +1,2 @@
-global.Deno = require('..');
+global.Deno = require('../..');
 require('./misc.ts');

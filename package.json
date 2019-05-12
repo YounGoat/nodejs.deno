@@ -1,13 +1,15 @@
 {
     "bin": {},
-    "dependencies": {},
+    "dependencies": {
+        "dafo": "^0.1.0"
+    },
     "devDependencies": {},
     "directories": {},
     "scripts": {
         "test": "mocha"
     },
     "name": "deno",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "main": "index.js",
     "keywords": [
         "deno"
