@@ -1,21 +1,19 @@
 {
     "bin": {},
     "dependencies": {},
-    "devDependencies": {
-        "mocha": "^3.3.0"
-    },
+    "devDependencies": {},
     "directories": {},
     "scripts": {
         "test": "mocha"
     },
     "name": "deno",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "main": "index.js",
     "keywords": [
         "deno"
     ],
     "homepage": "https://github.com/YounGoat/nodejs.deno",
-    "description": "Bridge to deno.",
+    "description": "A bridge to Deno.",
     "repository": {
         "type": "git",
         "url": "https://github.com/YounGoat/nodejs.deno.git"
@@ -24,5 +22,6 @@
         "name": "YounGoat",
         "email": "youngoat@163.com",
         "url": "https://youngoat.github.io"
-    }
+    },
+    "license": "MIT"
 }

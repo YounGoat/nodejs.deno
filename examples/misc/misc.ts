@@ -1,0 +1,11 @@
+console.log(Deno.args);
+console.log(Deno.build);
+console.log(Deno.execPath);
+console.log(Deno.noColor);
+console.log(Deno.pid);
+console.log(Deno.platform === Deno.build);
+// console.log(Deno.stderr);
+// console.log(Deno.stdin);
+// console.log(Deno.stdout);
+console.log(Deno.version);
+console.log(`${Object.keys(Deno.ErrorKind).length} predefined errors found in Deno.ErrorKind`);

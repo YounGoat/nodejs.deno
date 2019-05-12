@@ -1,7 +1,17 @@
-examples
 # Added by YUPP, Sat Apr 27 2019 22:37:00 GMT+0800 (China Standard Time)
 yupp.json
+
 # Added by YUPP, Sat Apr 27 2019 22:37:01 GMT+0800 (China Standard Time)
 CHANGELOG.md
+
 # Added by YUPP, Sat Apr 27 2019 22:37:01 GMT+0800 (China Standard Time)
 README.*.md
+
+# Repositories cloned from https://github.com/denoland/
+denoland
+
+# Examples in Node.js vs. Deno
+examples
+
+# Those are under development.
+_workspace

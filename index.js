@@ -9,4 +9,5 @@ const MODULE_REQUIRE = 1
     ;
     
 const Deno = require('./variables');
-module.exports = Object.assign(Deno);
+const ErrorKind = require('./ErrorKind');
+module.exports = Object.assign({ ErrorKind }, Deno);

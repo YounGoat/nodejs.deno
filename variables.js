@@ -22,6 +22,7 @@ const build = {
 const execPath = process.argv0;
 
 const noColor = {
+	enumerable: true,
 	get: function() {
 		return process.env.hasOwnProperty('NO_COLOR');
 	},
