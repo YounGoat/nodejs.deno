@@ -8,6 +8,7 @@ const MODULE_REQUIRE = 1
     /* in-package */
     ;
     
-const Deno = require('./variables');
+const Variables = require('./variables');
 const ErrorKind = require('./ErrorKind');
-module.exports = Object.assign({ ErrorKind }, Deno);
+const Functions = require('./functions')
+module.exports = Object.assign({ ErrorKind }, Variables, Functions);

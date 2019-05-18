@@ -7,12 +7,12 @@ __A bridge to Deno.__
 
 >	If links in this document not avaiable, please access [README on GitHub](./README.md) directly.
 
-This module is designed as a bridge from Node.js to [*Deno*][^deno]. 
+This package is designed to help developers to experience functions of [*Deno*][^deno] in Node.js.
 
 What is [*Deno*][^deno]? According to [deno.land](https://deno.land/manual.html):
 >   A secure JavaScript/TypeScript runtime ...
 
-ATTENTION: The semi-official *Deno* installer via NPM is [get-deno](https://www.npmjs.com/package/get-deno). I was asked to transfer the ownership of this package to *Deno* official team (see issue "[Install via npm](https://github.com/denoland/deno_install/issues/6)" for details of the discussion). By now, I have not decided to accept such suggestion.
+ATTENTION: This package is NOT an official distribution of [deno.land](https://deno.land/). It is suggest to access [*Deno*'s homepage][^deno] if you are seeking an official binary. And, I should show my appreciation of [Ryan](https://www.npmjs.com/~ry)'s great work on [*Deno*][^deno].
 
 ##  Get Started
 
