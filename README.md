@@ -29,7 +29,8 @@ ATTENTION: Although this module `deno` tries to imitate behaviors of real [*Deno
 
 Here are available features and standard modules:  
 [view on single page](docs/all.md)
-*   [variables](docs/variables)
+*   [variables](docs/variables.md)
+*	[functions](docs/functions.md)	
 *	[ErrorKind](docs/ErrorKind.md)	
 *   [datetime](docs/datetime.md)
 
