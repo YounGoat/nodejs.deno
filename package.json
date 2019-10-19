@@ -1,5 +1,7 @@
 {
-    "bin": "bin/install.js",
+    "bin": {
+        "bin/install.js": "try-deno"
+    },
     "dependencies": {
         "dafo": "^0.1.0",
         "qir": "0.0.2"
