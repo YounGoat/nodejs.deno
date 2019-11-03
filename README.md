@@ -12,7 +12,7 @@ This package is designed to help developers to experience functions of [*Deno*][
 What is [*Deno*][^deno]? According to [deno.land](https://deno.land/manual.html):
 >   A secure JavaScript/TypeScript runtime ...
 
-ATTENTION: This package is NOT an official distribution of [deno.land](https://deno.land/). It is suggest to access [*Deno*'s homepage][^deno] if you are seeking an official binary. And, I should show my appreciation of [Ryan](https://www.npmjs.com/~ry)'s great work on [*Deno*][^deno].
+ATTENTION: This package is NOT an official distribution of [deno.land](https://deno.land/). It is suggested to access [*Deno*'s homepage][^deno] if you are seeking an official binary. And, I should show my appreciation of [Ryan](https://www.npmjs.com/~ry)'s great work on [*Deno*][^deno].
 
 ##  Get Started
 

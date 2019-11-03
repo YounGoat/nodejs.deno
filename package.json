@@ -3,8 +3,9 @@
         "bin/install.js": "try-deno"
     },
     "dependencies": {
-        "dafo": "^0.1.0",
-        "qir": "0.0.2"
+        "dafo": "^0.1.1",
+        "noda": "^0.5.0",
+        "qir": "^0.0.6"
     },
     "devDependencies": {},
     "directories": {},
@@ -12,7 +13,7 @@
         "test": "mocha"
     },
     "name": "deno",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "main": "index.js",
     "keywords": [
         "deno"
