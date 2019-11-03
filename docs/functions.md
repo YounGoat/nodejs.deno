@@ -131,7 +131,7 @@ The returned object will be made up of the following properties:
 *   boolean *isDirectory*()
 *   boolean *isSymlink*()
 
-The returned object will be brought into correspondence with what described as [FileInfo](https://deno.land/typedoc/interfaces/deno.fileinfo.htm) in Deno.
+The returned object will be brought into correspondence with what described as [FileInfo](https://deno.land/typedoc/interfaces/deno.fileinfo.html) in Deno.
 
 ##  lstatSync()
 since v0.0.5
