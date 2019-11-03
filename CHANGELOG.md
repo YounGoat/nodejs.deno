@@ -2,6 +2,18 @@
 
 Notable changes to this project will be documented in this file. This project adheres to [Semantic Versioning 2.0.0](http://semver.org/).
 
+##  [0.0.5] - Nov 3rd, 2019
+
+*   Function [env()](./docs/functions.md#env) added.
+*   Function [execPath()](./docs/functions.md#execpath) added.
+*   Function [homeDir()](./docs/functions.md#homedir) added.
+*   Function [hostname()](./docs/functions.md#hostname) added.
+*   Function [isTTY()](./docs/functions.md#istty) added.
+*   Function [link()](./docs/functions.md#link) added.
+*   Function [linkSync()](./docs/functions.md#linksync) added.
+*   Function [lstat()](./docs/functions.md#lstat) added.
+*   Function [lstatSync()](./docs/functions.md#lstatsync) added.
+
 ##  [0.0.4] - May 17th, 2019
 
 *   Function [chdir()](./docs/functions.md#chdir) added.

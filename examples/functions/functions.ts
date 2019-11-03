@@ -12,7 +12,7 @@ if (0) {
         });
 }
 
-if (1) {
+if (0) {
     Deno.remove('foo', { recursive: true })
         .then(() => {
             console.log('Directory removed successfully.');
@@ -27,5 +27,17 @@ if (0) {
 }
 
 if (0) {
+    Deno.removeSync('foo', { recursive: true });
+}
+
+if (0) {
     Deno.exit(99);
+}
+
+if (0) {
+    console.log(Deno.execPath());
+}
+
+if (1) {
+    console.log(Deno.lstatSync(__dirname));
 }

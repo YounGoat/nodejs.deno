@@ -1,2 +1,2 @@
 global.Deno = require('../..');
-require('./misc.ts');
+require('./functions.ts');
