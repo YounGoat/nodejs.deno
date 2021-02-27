@@ -14,6 +14,8 @@ What is [*Deno*][^deno]? According to [deno.land](https://deno.land/manual.html)
 
 ATTENTION: This package is NOT an official distribution of [deno.land](https://deno.land/). It is suggested to access [*Deno*'s homepage][^deno] if you are seeking an official binary. And, I should show my appreciation of [Ryan](https://www.npmjs.com/~ry)'s great work on [*Deno*][^deno].
 
+Since v0.1.0, the package begins to follow [*Deno*][^deno] v1.7.5+ .
+
 ##  Get Started
 
 ```javascript
@@ -22,6 +24,11 @@ const Deno = require('deno');
 // Display build info.
 console.log(Deno.build);
 ```
+
+##	Links
+
+*	[CHANGE LOG](./CHANGELOG.md)
+*	[Homepage](https://github.com/YounGoat/nodejs.deno/tree/v1)
 
 ##  API
 

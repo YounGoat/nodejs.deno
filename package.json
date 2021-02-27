@@ -13,7 +13,7 @@
         "test": "mocha"
     },
     "name": "deno",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "deno.version": "1.7.5",
     "main": "index.js",
     "keywords": [
@@ -23,7 +23,7 @@
     "description": "A bridge to Deno.",
     "repository": {
         "type": "git",
-        "url": "https://github.com/YounGoat/nodejs.deno.git"
+        "url": "https://github.com/YounGoat/nodejs.deno.git#v1"
     },
     "author": {
         "name": "YounGoat",
