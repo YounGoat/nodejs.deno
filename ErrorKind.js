@@ -1,4 +1,5 @@
 /**
+ * @deprecated since 0.1.0
  * 
  * Reference:
  *   https://github.com/denoland/deno/blob/ec9080f34c936d9af56cca68de664954053bf423/cli/msg.fbs

@@ -28,6 +28,8 @@ let DATETIME_PATTERNS = {
  * @param {string} date 
  * @param {string} pattern 
  * @return {Date}
+ * 
+ * @deprecated since 0.1.0
  */
 function parseDate(date, pattern) {
 	pattern = DATE_PATTERNS[pattern];
@@ -41,9 +43,19 @@ function parseDate(date, pattern) {
  * @param {string} datetime 
  * @param {string} pattern 
  * @return {Date}
+ * 
+ * @deprecated since 0.1.0
  */
 function parseDateTime(datetime, pattern) {
 	pattern = DATETIME_PATTERNS[pattern];
+	if (!pattern) {
+		throw new Error('invalid datetime format');
+	}
+	return dafo.parse(datetime, pattern);
+}
+
+function parse(datetime, pattern) {
+	pattern = DATE_PATTERNS[pattern] || DATETIME_PATTERNS[pattern];
 	if (!pattern) {
 		throw new Error('invalid datetime format');
 	}
@@ -68,6 +80,7 @@ function currentDayOfYear() {
 module.exports = {
 	parseDate,
 	parseDateTime,
+	parse,
 	dayOfYear,
 	currentDayOfYear,
 };

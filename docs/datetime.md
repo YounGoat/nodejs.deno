@@ -21,8 +21,11 @@ datetime.parseDateTime("01-03-2019 16:34", "mm-dd-yyyy hh:mm");
 
 ##  API
 
-*   Date __datetime.parseDate__(string *dateStr*, string *format*)
-*   Date __datetime.parseDateTime__(string *datetimeStr*, string *format*)
+*   Date __datetime.parse__(string *datetimeStr*, string *format*)  
+*   Date __datetime.parseDate__(string *dateStr*, string *format*)  
+	@deprecated since v0.1.0
+*   Date __datetime.parseDateTime__(string *datetimeStr*, string *format*)  
+	@deprecated since v0.1.0
 
 ##	References
 

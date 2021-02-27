@@ -2,8 +2,8 @@ if (0) {
     console.log(Deno.cwd());
 }
 
-if (0) {
-    Deno.mkdir('foo/bar/foo', true, 777)
+if (1) {
+    Deno.mkdir('temp/foo/bar/quz', { recursive: true, mode: 0o777 })
         .then(() => {
             console.log('Directory made successfully.');
         })
@@ -13,7 +13,7 @@ if (0) {
 }
 
 if (0) {
-    Deno.remove('foo', { recursive: true })
+    Deno.remove('temp', { recursive: true })
         .then(() => {
             console.log('Directory removed successfully.');
         })
@@ -23,7 +23,7 @@ if (0) {
 }
 
 if (0) {
-    Deno.mkdirSync('foo/bar/foo', false);
+    Deno.mkdirSync('temp/foo/bar/foo', { recursive: false });
 }
 
 if (0) {
@@ -38,6 +38,6 @@ if (0) {
     console.log(Deno.execPath());
 }
 
-if (1) {
-    console.log(Deno.lstatSync(__dirname));
+if (0) {
+    // console.log(Deno.lstatSync(__dirname));
 }

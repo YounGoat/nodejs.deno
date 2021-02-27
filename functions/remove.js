@@ -5,10 +5,12 @@ const MODULE_REQUIRE = 1
 	, fs = require('fs')
 	, util = require('util')
     
-    /* NPM */
+	/* NPM */
+	, noda = require('noda')
     , qir = require('qir')
     
     /* in-package */
+    , flag = noda.inRequire('util/flag')
     ;
 
 
@@ -21,6 +23,8 @@ const MODULE_REQUIRE = 1
  * @todo Trigger proper error in cases that native Deno does.
  */
 async function remove(pathname, options) {
+	flag('allow-write');
+
 	options = Object.assign({
 		recursive: false,
 	}, options);

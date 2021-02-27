@@ -7,5 +7,8 @@ node_modules
 # Repositories cloned from https://github.com/denoland/
 denoland
 
+# Directory updated by example programs.
+temp
+
 # Those are under development.
 _workspace

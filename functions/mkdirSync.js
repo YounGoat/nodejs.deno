@@ -5,18 +5,24 @@ const MODULE_REQUIRE = 1
     , fs = require('fs')
     
     /* NPM */
+	, noda = require('noda')
     , qir = require('qir')
-    
-    /* in-package */
+	
+	/* in-package */
+	, flag = noda.inRequire('util/flag')
     ;
 
 /**
  * Make directory synchronously.
  * @param {string}   pathname 
- * @param {boolean} [recursive]
- * @param {number}  [mode]
+ * @param {boolean} [options.recursive]
+ * @param {number}  [optins.mode]
  */
-function mkdirSync(pathname, recursive = false, mode = undefined) {
+function mkdirSync(pathname, options) {
+	flag('allow-write');
+
+	let { recursive, mode } = options;
+	
 	if (recursive) {
 		qir.syncing.mkd(pathname);
 	}

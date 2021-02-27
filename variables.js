@@ -31,6 +31,10 @@ const noColor = {
 // Alias of "build".
 const pid = process.pid;
 
+/**
+ * Property 'platform' never exists on type 'typeof Deno'?
+ * @deprecated since 0.1.0
+ */
 const platform = build;
 
 const stderr = process.stderr;

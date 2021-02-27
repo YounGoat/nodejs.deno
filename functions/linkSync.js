@@ -5,8 +5,10 @@ const MODULE_REQUIRE = 1
     , fs = require('fs')
     
     /* NPM */
+    , noda = require('noda')
     
     /* in-package */
+    , flag = noda.inRequire('util/flag')
     ;
 
 /**
@@ -16,6 +18,8 @@ const MODULE_REQUIRE = 1
  * @return {void}
  */
 function linkSync(oldname, newname) {
+    flag('allow-write');
+
     fs.linkSync(oldname, newname);
 }
 

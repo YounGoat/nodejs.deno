@@ -2,6 +2,16 @@
 
 Notable changes to this project will be documented in this file. This project adheres to [Semantic Versioning 2.0.0](http://semver.org/).
 
+##	[0.1.0] - Feb 26th, 2021
+
+Since this version, reference Deno version is upgraded to 1.7.5 .
+
+*   Function [datetime.parse()](./docs/datetime.md) added.
+*   Function [datetime.parseDate()](./docs/datetime.md) deprecated.
+*   Function [datetime.parseTtime()](./docs/datetime.md) deprecated.
+*	Flag `--allow-read` is required by some functions.
+*	Flag `--allow-write` is required by some functions.
+
 ##  [0.0.5] - Nov 3rd, 2019
 
 *   Function [env()](./docs/functions.md#env) added.

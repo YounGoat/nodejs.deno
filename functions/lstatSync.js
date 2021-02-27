@@ -8,6 +8,7 @@ const MODULE_REQUIRE = 1
     , noda = require('noda')
     
     /* in-package */
+    , flag = noda.inRequire('util/flag')
     , stats2FileInfo = noda.inRequire('util/stats2FileInfo')
     ;
 

@@ -4,10 +4,12 @@ const MODULE_REQUIRE = 1
     /* built-in */
     , fs = require('fs')
     
-    /* NPM */
+	/* NPM */
+	, noda = require('noda')
     , qir = require('qir')
     
     /* in-package */
+	, flag = noda.inRequire('util/flag')
     ;
 
 /**
@@ -19,6 +21,8 @@ const MODULE_REQUIRE = 1
  * @todo Trigger proper error in cases that native Deno does.
  */
 function removeSync(pathname, options) {
+	flag('allow-write');
+
 	options = Object.assign({
 		recursive: false,
 	}, options);

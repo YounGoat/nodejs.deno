@@ -5,20 +5,26 @@ const MODULE_REQUIRE = 1
     , fs = require('fs')
     , util = require('util')
     
-    /* NPM */
+	/* NPM */
+	, noda = require('noda')
     , qir = require('qir')
     
-    /* in-package */
+	/* in-package */
+	, flag = noda.inRequire('util/flag')
     ;
 
 /**
  * Make directory.
  * @param {string}   pathname 
- * @param {boolean} [recursive]
- * @param {number}  [mode]
+ * @param {boolean} [options.recursive]
+ * @param {number}  [options.mode]
  * @return {Promise}
  */
-async function mkdir(pathname, recursive = false, mode = undefined) {
+async function mkdir(pathname, options) {
+	flag('allow-write');
+
+	let { recursive, mode } = options;
+	
 	if (recursive) {
 		await qir.asyncing.mkd(pathname);
 	}
